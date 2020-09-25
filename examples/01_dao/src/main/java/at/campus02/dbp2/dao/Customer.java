@@ -1,7 +1,12 @@
 package at.campus02.dbp2.dao;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Customer {
 
+    @Id
     private String lastname;
     private String firstname;
     private Integer age;
