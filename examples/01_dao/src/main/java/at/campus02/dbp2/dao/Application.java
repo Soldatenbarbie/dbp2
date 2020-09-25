@@ -17,7 +17,7 @@ public class Application {
         // Data Access Object holen
 
         // In memory Implementierung
-        // CustomerDao dao = new CustomerDaoInMemory();
+        //CustomerDao dao = new CustomerDaoInMemory();
 
         // JDBC Implementierung
         CustomerDao dao = new CustomerDaoJdbc("jdbc:derby:database;create=true");
