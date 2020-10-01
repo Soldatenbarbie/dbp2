@@ -1,5 +1,6 @@
 package at.campus02.dbp2.dao;
 
+import javax.persistence.Basic;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
